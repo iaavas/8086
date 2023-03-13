@@ -14,7 +14,7 @@
     
 .code
     main proc far
-        mov ax,@data ;intialize data segment
+        mov ax,@data 
         mov ds,ax
         call input
         call count
